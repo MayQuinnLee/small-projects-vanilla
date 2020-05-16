@@ -55,7 +55,7 @@ const checkPasswordMatch = (input1, input2) => {
   if (input1.value === input2.value) {
     showSuccess(input2);
   } else {
-    showError(input2, "Password do not match");
+    showError(input2, "Password do not match!");
   }
 };
 
